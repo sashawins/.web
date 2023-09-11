@@ -1,0 +1,103 @@
+body {
+  color: #1a1a1a;             /* Soft Black */
+  background-color: #fcfcfc;  /* Soft White */
+}
+
+p:last-of-type {
+  margin-bottom: 50px;
+}
+
+.page {
+  width: 600px;
+  margin: 0 auto;
+}
+.page > p:first-of-type {     /* Child Selector */
+  color: #3a3a3a;
+  font-style: italic;
+}
+/* .synopsis {                / *p:first-of-type* /
+  color: #3a3a3a;             / *Mid Gray* /
+  font-style: italic;
+} */
+.synopsis em {
+  font-style: normal;
+}
+
+h1 em {
+  /* Some other styles */
+}
+
+.button:link,
+.button:visited {
+  display: block;
+  text-decoration: none;
+
+  color: #fff;
+  background-color: #5995da;  /* Blue */
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5a5a5a;  /* Dark Gray */
+
+  width: 200px;
+  margin: 20px auto;
+}
+.button:hover,
+.button:visited:hover {
+  color: #fff;
+  background-color: #76aeed;  /* Light Blue */
+}
+.button:active,
+.button:visited:active {
+  color: #fff;
+  background-color: #5995da;  /* Blue */
+}
+
+/* .call-to-action:link,
+.call-to-action:visited {
+  background-color: #d55c5f;  / *Soft Red* /
+} */
+/* #button-2 {
+  background-color: #d55c5f;  / *Soft Red* /
+} */
+.call-to-action:link,
+.call-to-action:link:visited {
+  font-style: italic;
+  background-color: #eeb75a;  /* Yellow */
+}
+.call-to-action:hover,
+.call-to-action:visited:hover {
+  background-color: #f5cf8e;  /* Light Yellow */
+}
+.call-to-action:active,
+.call-to-action:visited:active {
+  background-color: #eeb75a;  /* Yellow */
+}
+/* #button-2 {
+  color: #5d6063;             / *Dark Gray* /
+} */
+
+a:link {
+  color: blue;
+  text-decoration: underline;
+}
+a:visited:hover {
+  color: orange;
+}
+a:visited {
+color: purple;
+}
+a:hover {
+  color: aqua;
+}
+a:active {
+  color: red;
+}
+a:visited:active {
+  color: red;
+}
+
+.fragments {
+  margin-top: 256px;
+  text-align: center;
+}

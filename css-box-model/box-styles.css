@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #202020; /* Dark gray */
+  background-color: #fafafa; /* Light gray */
+  font-size: 18px;
+  font-family: "Fira Code", "Monospace";
+
+  text-align: center;
+}
+
+h1, p {
+  background-color: #dde0e3;  /* Light Gray */
+}
+
+h1 {
+  padding: 50px;
+  border-bottom: 1px solid #5d6063;
+  border-bottom-style: solid; /* Default */
+}
+
+p {
+  padding: 20px 10px; /* Vertical Horizontal */
+/*padding: 20px 0 20px 10px; Top Right Bottom Left (Clockwise) */
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+em, strong {
+  background-color: #b2d6ff;  /* Light Blue */
+  display: inline;
+}
+
+strong {
+  margin: 50px;
+}
+
+div {
+  color: #fff;
+  background-color: #5995da;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5d6063;
+  border-radius: 5px;
+
+  width: 500px;
+  box-sizing: border-box;
+  margin: 20px auto;  /* Vertical  Horizontal */
+}
